@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+   --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-TextBlue:#3DD2CC;
+  --color-TextGrey: #666666;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-Poppins: var(--font-geist-poppins);
+  --shadow-Dark: 2px 2px 20px 0px #2B33434D;
+  --shadow-Light: -6px -6px 20px 0px #FAF9F6;
+  --shadow-Combined: var(--shadow-Dark), var(--shadow-Light);
+  --shadow-LightBottom: 0 2px 4px #00000040;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #191919;
+    --foreground: #ededed;
+  }
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Poppins", sans-serif;
+    overflow-y: scroll;
+
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hides scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
