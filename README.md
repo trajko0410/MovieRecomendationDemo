@@ -1,4 +1,5 @@
 About This Project
+
 This is a full-featured movie and TV show web application that allows users to discover, explore, and learn more about their favorite titles. It provides detailed insights for each title including high-resolution backdrop images, cast and crew credits, trailers, related content, and additional metadata such as genres, release date, runtime, and ratings.
 
 Built with Next.js App Router, TypeScript, and Tailwind CSS, the app consumes data from The Movie Database (TMDB) API and displays it in a clean, responsive, and engaging layout. It is optimized for fast performance and smooth user experience across all devices.
